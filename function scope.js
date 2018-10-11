@@ -8,4 +8,11 @@ function aa(par1){
 
 }
 
-
+function aa2(par1){
+	var par2 = 22;
+	debugger;
+	return function cc(par3){
+		debugger;
+		return par1 * par2 * par3
+	}
+}
